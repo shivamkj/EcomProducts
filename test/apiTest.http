@@ -1,0 +1,59 @@
+@baseUrl = http://localhost:3000/v1
+
+###
+POST {{baseUrl}}/product
+Content-Type: application/json
+
+{
+  "id" : 234,
+  "name": "iMac Pro",
+  "price": 4999
+}
+
+###
+GET {{baseUrl}}/product/234
+
+###
+PATCH  {{baseUrl}}/product/34
+Content-Type: application/json
+
+{
+  "price": 5999
+}
+
+###
+DELETE  {{baseUrl}}/product/34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hrXWgw4Q127uqZJ3

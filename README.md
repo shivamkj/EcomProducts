@@ -1,4 +1,4 @@
-# API Authentication using NodeJs
+# NodeJs E-Commerce Product REST API
 
 The REST API application for managing products for E-Commerce site. It based on Node.js & Express. Architecture is mix of MVC and clean architecture.
 
